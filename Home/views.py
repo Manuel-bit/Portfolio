@@ -7,3 +7,6 @@ def Index(request):
     cariclumvitae = get_object_or_404(CariclumVitae)
     print(cariclumvitae)
     return render(request,'Home/Index.html')
+
+def Bccis(request):
+    return render(request, 'Home/bccis_project.html')
